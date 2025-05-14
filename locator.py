@@ -1,6 +1,4 @@
 from selenium.webdriver.common.by import By
-
-
 class Locator:
     ORDERS_HISTORY = (By.XPATH, "//a[contains(text(), 'История заказов')]")
     LOGOUT_BUTTON = (By.XPATH, "//button[text()='Выход']")

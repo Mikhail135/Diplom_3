@@ -53,5 +53,8 @@ class BasePage:
     def implicitly_wait(self):
         self.drivers.implicitly_wait(10)
 
+    def execute_scripts(self, lent):
+        self.drivers.execute_script("arguments[0].click();", lent)
+
 
 
